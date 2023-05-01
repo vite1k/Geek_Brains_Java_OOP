@@ -25,10 +25,10 @@ public class Peasant extends Unit {
     @Override
     public void step(ArrayList<Unit> enemy) {
         if (readiness) {
-            System.out.println(this + " " + this.name + " ничего не делает");
+            //System.out.println(this + " " + this.name + " ничего не делает");
         }else{
             readiness = true;
-            System.out.println(this + " " + this.name + " находит припасы");
+            //System.out.println(this + " " + this.name + " находит припасы");
         }
     }
 
